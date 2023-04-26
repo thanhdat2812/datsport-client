@@ -1,0 +1,41 @@
+.wrapper-slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .swiper {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    &-slide {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .group-btn-slide {
+      position: absolute;
+      top: 0;
+      right: 5%;
+      display: flex;
+      .button-prev-slide {
+        margin-right: 10px;
+        transition: all 0.2s;
+        padding: 10px 5px;
+        &:hover {
+          background-color: #e9e5e0;
+        }
+      }
+      .button-next-slide {
+        transition: all 0.2s;
+        padding: 10px 5px;
+        &:hover {
+          background-color: #e9e5e0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .options{
+    flex-direction: column;
+    width: 100%;
+  }
+  .collapse-nav{
+    display: flex;
+    flex-direction: column;
+  }
+}
+

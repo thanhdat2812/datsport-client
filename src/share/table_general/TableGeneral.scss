@@ -1,0 +1,53 @@
+.table-product {
+  position: relative;
+  margin-top: 50px;
+  table {
+    img {
+      width: 120px;
+      height: 70px;
+      object-fit: cover;
+    }
+    thead {
+      tr {
+        th {
+          padding: 10px;
+          border: 1px solid #cccbcb;
+          position: sticky;
+          top: 0px;
+          text-align: center;
+          background-color: #fbef11;
+          z-index: 20;
+          &:first-child {
+            position: sticky;
+            left: 0px;
+            top: 0px;
+            z-index: 1;
+          }
+          &:last-child {
+            position: sticky;
+            right: 0px;
+            top: 0px;
+            z-index: 1;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          border: 1px solid #cccbcb;
+          text-align: center;
+          &:first-child {
+            position: sticky;
+            left: 0px;
+          }
+          &:last-child {
+            position: sticky;
+            right: 0px;
+          }
+        }
+      }
+    }
+  }
+}

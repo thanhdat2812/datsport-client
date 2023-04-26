@@ -1,0 +1,18 @@
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.sticky-top {
+    position: sticky;
+
+}
+
+.post-image-wrapper {
+    max-height: 25rem;
+    overflow-y: hidden;
+}
+
+.post-image {
+    top: 0;
+    width: 100%;
+}

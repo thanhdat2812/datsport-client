@@ -1,0 +1,23 @@
+.searchBar-wrap{
+    form{
+        display: flex;
+        align-items: center;
+    }
+    input{
+        background-color: #f0f0f0;
+        outline: none;
+        border:none;
+    }
+    span{
+        padding-right: 0.5rem;
+        cursor: pointer;
+    }
+    button{
+        outline: none;
+        border:none;
+        padding: .3rem 1rem;
+        border-radius: 5px;
+        background-color: #0f52ba;
+        color: #fff;
+    }
+}
